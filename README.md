@@ -1,6 +1,6 @@
 # 姚伟 Wei Yao Academic Homepage
 
-This is a static GitHub Pages site for `https://YYYauW.github.io`.
+This is a static GitHub Pages site for `https://YYYauW.github.io/academic.github.io/`.
 
 ## Local Preview
 
@@ -14,11 +14,11 @@ Then visit `http://localhost:8000`.
 
 ## Publish to GitHub Pages
 
-1. Create a public GitHub repository named `YYYauW.github.io`.
+1. Use the public GitHub repository named `academic.github.io`.
 2. Add it as the remote:
 
 ```powershell
-git remote add origin https://github.com/YYYauW/YYYauW.github.io.git
+git remote add origin https://github.com/YYYauW/academic.github.io.git
 ```
 
 3. Commit and push:
@@ -30,7 +30,8 @@ git branch -M main
 git push -u origin main
 ```
 
-4. In GitHub, open `Settings -> Pages` and make sure the source is the `main` branch.
+4. In GitHub, open `Settings -> Pages` and set the source to the `main` branch.
+5. Visit `https://YYYauW.github.io/academic.github.io/` after GitHub Pages finishes deploying.
 
 ## Edit Next
 
