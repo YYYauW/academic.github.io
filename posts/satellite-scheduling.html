@@ -11,20 +11,20 @@
     <link rel="stylesheet" href="../styles.css" />
     <style>
       .article-shell {
-        width: min(820px, calc(100% - 40px));
+        width: min(780px, calc(100% - 40px));
         margin: 0 auto;
-        padding: 72px 0 96px;
+        padding: 56px 0 90px;
       }
 
       .article-shell h1 {
-        margin: 0 0 16px;
-        font-size: clamp(2.2rem, 5vw, 4rem);
-        line-height: 1.05;
+        margin: 0 0 12px;
+        font-size: clamp(2rem, 5vw, 3.4rem);
+        line-height: 1.1;
         letter-spacing: 0;
       }
 
       .article-meta {
-        margin: 0 0 34px;
+        margin: 0 0 32px;
         color: var(--muted);
       }
 
@@ -36,25 +36,26 @@
 
       .article-shell h2 {
         margin-top: 42px;
+        padding-top: 24px;
+        border-top: 1px solid var(--line);
       }
     </style>
   </head>
   <body>
-    <header class="site-header">
-      <a class="brand" href="../index.html">
-        <span class="brand-mark">WY</span>
-        <span>Wei Yao</span>
-      </a>
-      <nav class="site-nav" aria-label="Primary navigation">
-        <a href="../index.html#research">Research</a>
-        <a href="../index.html#publications">Publications</a>
-        <a href="../index.html#blog">Blog</a>
-        <a href="../index.html#contact">Contact</a>
-      </nav>
+    <header class="masthead">
+      <div class="masthead-inner">
+        <a class="site-title" href="../index.html">Wei Yao</a>
+        <nav class="site-nav" aria-label="Primary navigation">
+          <a href="../index.html#about">About</a>
+          <a href="../index.html#publications">Publications</a>
+          <a href="../index.html#research">Research</a>
+          <a href="../index.html#posts">Posts</a>
+          <a href="../index.html#contact">Contact</a>
+        </nav>
+      </div>
     </header>
 
     <main class="article-shell">
-      <p class="eyebrow">Research Note</p>
       <h1>How I Think About Dynamic Satellite Mission Scheduling</h1>
       <p class="article-meta">Opening note - update this file with your own text</p>
 
