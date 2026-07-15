@@ -1,4 +1,4 @@
-# 姚伟 Wei Yao Academic Homepage
+# Wei Yao Academic Homepage
 
 This is a static GitHub Pages site for `https://YYYauW.github.io/academic.github.io/`.
 
@@ -25,7 +25,7 @@ git remote add origin https://github.com/YYYauW/academic.github.io.git
 
 ```powershell
 git add .
-git commit -m "Create academic homepage"
+git commit -m "Update academic homepage"
 git branch -M main
 git push -u origin main
 ```
@@ -36,7 +36,6 @@ git push -u origin main
 ## Edit Next
 
 - Replace the email placeholder in `index.html`.
-- Add your portrait to `assets/` and update the hero or contact section if desired.
 - Add more posts under `posts/`.
 - Add Google Scholar, ORCID, or CV links when ready.
 
